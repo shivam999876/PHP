@@ -1,0 +1,24 @@
+<?php
+$a = 80;
+$b = 50;
+$c = "80";
+//Here var_dump function has been used to display structured information
+echo var_dump($a == $c);
+echo"<br>";
+echo var_dump($a != $b);
+echo"<br>";
+echo var_dump($a <> $b);
+echo"<br>";
+echo var_dump($a === $c);
+echo"<br>";
+echo var_dump($a !== $c);
+echo"<br>";
+echo var_dump($a < $b);
+echo"<br>";
+echo var_dump($a > $b);
+echo"<br>";
+echo var_dump($a <= $b);
+echo"<br>";
+echo var_dump($a >= $b);
+echo"<br>";
+?>
