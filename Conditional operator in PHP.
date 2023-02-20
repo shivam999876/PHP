@@ -1,0 +1,12 @@
+<?php
+$x = -12;
+
+if ($x > 0){
+    echo"The number is positive";
+}
+else{
+    echo"The number is negative";
+}
+//This whole lot can be written in a single line using ternary operator 
+echo ($x > 0) ? 'The number is positive' : ' <br> The number is negative';
+?>
