@@ -1,0 +1,14 @@
+<?php
+$num=20;
+//function to demonstrate use of global variable
+function global_var(){
+    //We have to use global keyword before
+    //the variable $num to access within
+    //the function
+    global $num;
+    echo"Variable num inside function : $num";
+    echo"<br>"; 
+}
+global_var();
+echo"Variable num outside function : $num";
+?>
