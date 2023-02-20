@@ -1,0 +1,21 @@
+<?php
+//Pass by value
+function valNumber($num){
+    $num += 2;
+    return $num;
+}
+//Pass by reference
+function refNumber(&$num){
+    $num += 10;
+    return $num;
+}
+
+$n = 10;
+valNumber($n);
+echo"The Original value is still $n";
+echo"<br>";
+
+refNumber($n);
+echo"The Original value changes to $n";
+
+?>
