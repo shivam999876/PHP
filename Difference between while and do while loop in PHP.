@@ -1,0 +1,14 @@
+<?php
+//PHP code to differentiate between do-while and while loop
+$num = 2;
+//In case of while loop
+while($num != 2){
+    echo "In case of while the code is skipped";
+    echo "$num \n";
+}
+//In case of do...while loop
+do{
+    $num++;
+    echo "The do..while code is executed  atleast once";
+}while($num == 2);
+?>
