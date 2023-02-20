@@ -1,0 +1,8 @@
+<?php
+function funGeek()
+{
+    echo"This is Shivam";
+}
+//Calling the function
+funGeek();
+?>
