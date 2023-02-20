@@ -1,0 +1,10 @@
+<?php
+$x = 29; //variable 1
+$y = 4; //variable 2
+//Some arithmetic operations on these two variabes 
+echo ($x + $y), "\n";
+echo ($x - $y), "\n";
+echo ($x * $y), "\n";
+echo ($x / $y), "\n";
+echo ($x % $y), "\n";
+?>
