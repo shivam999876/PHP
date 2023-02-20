@@ -1,0 +1,35 @@
+<?php
+//Simple assign operator
+$y = 75;
+echo $y;
+echo "<br>";
+
+//Add then assign operator
+$y = 100;
+$y += 200;
+echo $y;
+echo "<br>";
+
+//Subtract then assign operator
+$y = 70;
+$y -= 10;
+echo $y;
+echo "<br>";
+
+//Multiply then assign operator
+$y = 30;
+$y *= 20;
+echo $y;
+echo "<br>";
+
+//Divide then assign (quotient) operator
+$y = 100;
+$y /= 5;
+echo $y;
+echo "<br>";
+
+//Divide then assign (remainder) operator
+$y = 50;
+$y %= 5;
+echo $y;
+?>
