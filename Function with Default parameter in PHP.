@@ -1,0 +1,14 @@
+<?php
+// Function with default parameter
+function defGeek($str, $num=12)
+{
+    echo"$str is $num years old ";
+    echo "<br>";
+}
+//Calling the function
+defGeek("Shiv", 10);
+
+//In this call, the default value 12
+//will e considered
+defGeek("Ram");
+?>
