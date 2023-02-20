@@ -1,0 +1,22 @@
+<?php
+$x = 50;
+$y = 50;
+$z = 25;
+
+echo $x <=> $y;
+echo "<br>";
+
+echo $x <=> $z;
+echo "<br>";
+
+echo $z <=> $y;
+echo "<br>";
+
+//we can do the same for Strings
+$x = "Ram";
+$y = "Krishna";
+
+echo $x <=> $y;
+echo "<br>";
+
+echo $y <=> $x;
